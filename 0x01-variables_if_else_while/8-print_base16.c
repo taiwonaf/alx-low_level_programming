@@ -1,21 +1,21 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
+ * main - entry point
  *
- * Return: Always 0 (Success)
+ * Description: Print all the digits of base 16 in lowercase
+ * Return: 0
  */
 int main(void)
 {
-int z;
+char x;
 
-for (z = 48; z <= 57; z++)
-{
-putchar(z);
-}
-for (z = 97; z <= 102;z++)
-{
-putchar(z)
-}
+for (x = '0'; x <= '9'; ++x)
+putchar(x);
+for (x = 'a'; x <= 'f'; ++x)
+putchar(x);
+
 putchar('\n');
+
 return (0);
 }
