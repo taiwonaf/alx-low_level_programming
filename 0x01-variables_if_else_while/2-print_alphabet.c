@@ -1,20 +1,18 @@
 #include <stdio.h>
 
 /**
- * main
- *Description: Write a program that prints the alphabet in lowercase, followed by a new line.
- *Return: Always (Success)
+ * main 
+ *
+ * Return: Always (Success)
  */
-
 int main(void)
 {
-	char ch = 'a';
+	char c;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-	{
-		putchar(ch);
-	}
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
+
 	putchar('\n');
-
 	return (0);
+
 }
