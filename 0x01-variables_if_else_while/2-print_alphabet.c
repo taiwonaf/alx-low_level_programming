@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - alphabet in lowercase, followed by a new line.
+ * main
  *
- * Always return(0)
+ *Return: Always (Success)
  */
 
 int main(void)
