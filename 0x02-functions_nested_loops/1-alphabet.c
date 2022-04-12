@@ -5,15 +5,10 @@
  */
 void print_alphabet(void)
 {
-    int count = 0;
-    while (count < 10)
-    {
-        char alpha;
-        for (alpha = 'a'; alpha <= 'z'; alpha++)
-        {
-            _putchar(alpha);
-        }
-        _putchar('\n');
-        count++;
-    }
+char letter;
+
+for (letter = 'a'; letter <= 'z'; letter++)
+_putchar(letter);
+
+_putchar('\n');
 }
