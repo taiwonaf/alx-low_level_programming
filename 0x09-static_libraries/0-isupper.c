@@ -1,4 +1,4 @@
 #include "main.h"
-int _atoi(char* s) {
+int _isupper(int c) {
 	return 0;
 }
