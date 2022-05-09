@@ -1,3 +1,11 @@
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include "a.c"
+#include "b.c"
+#include "c.c"
+#include "d.c"
+
 /**
  * main - multiply two numbers
  * @argc: number of arguments
